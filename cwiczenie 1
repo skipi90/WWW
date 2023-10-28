@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widtd=device-widtd, initial-scale=1">
+        <meta name="description" content="Opis mojej strony">
+        <meta name="keywords" content="ogłoszenia, olsztyn">
+        <meta name="autor" content="Kacper Szczepkowski">
+        <meta http-equiv="refresh" content="60">
+        <title>Ćwiczenie</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+<h1>Warsztaty poetyckie</h1>
+<p>W tym roku mamy zamiar zorganizować i przeprowadzić serię warsztatów oraz sympozjów poetyckich</p>
+<p>Dla naszych członków wstęp na te imprezy będzie darmowy:</p>
+    <ul>
+        <li>Perspektywa poetycka</li>
+        <li>Wojna w oczach Baczyńskiego</li>
+        <li>Pomaty odnalezione i poeci-outsiderzy</li>
+    </ul>
+    <table>
+       
+        <tbody>
+            <tr>
+                <td>Kraków/td>
+                <td>Wrocław</td>
+                <td>Gdańsk</td>
+            </tr>
+            <tr>
+                <td>Perkspektywa poetycka</td><td>data tutaj</td><td>data tutaj</td><td>data tutaj</td>
+            </tr>
+            <tr>
+                <td>Wojna w oczach Baczyńskiego</td><td>data tutaj</td><td>data tutaj</td><td>data tutaj</td>
+            </tr>
+            <tr>
+                <td>Poematy odnalezione i poeci-outsiderzy</td><td>data tutaj</td><td>data tutaj</td><td>data tutaj</td>
+            </tr>
+        </tbody>
+    </table>
+    <form name="dane" method="post">
+        <fieldset>
+            <legend>Rejestracja uczestnika</legend>
+            <p>
+                <label>Adres email:</label><br><br>
+                <input type="email" name="email" placeholder="Podaj email" required/>
+                <br><br>
+                <label>Imię i nazwisko:</label><br><br>
+                <input type="name" maxlength="12" name="imie" placeholder="Podaj imię" required/>
+                <br><br>
+            </p>
+            <p>
+                Wybierz swój ulubiony gatunek muzyczny: <br>
+                <input type="checkbox" name="miasto" value="Kraków"/>Rock <br>
+                <input type="checkbox" name="miasto" value="Wrocław"/>Jazz <br>
+                <input type="checkbox" name="miasto" value="Pop"/>Pop <br>
+                
+            </p>
+    </body>
+</html> 

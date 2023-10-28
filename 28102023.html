@@ -98,6 +98,60 @@
             </tfoot>
         </tbody>
     </table>
-powie mi ktos czemu to dziadostwo nie chce dzialac jak bym chcial halo halo
+<br><br><br>
+<form name="dane" action="logowanie.htm" method="post">
+    <fieldset>
+        <legend>DANE OSOBOWE</legend>
+        <p>
+            <label>Adres email:</label><br><br>
+            <input type="email" name="email" placeholder="Podaj email" required/>
+            <br><br>
+            <label>Imię:</label><br><br>
+            <input type="name" maxlength="12" name="imie" placeholder="Podaj imię" required/>
+            <br><br>
+            <label>Nazwisko:</label><br><br>
+            <input type="name" maxlength="20" name="nazwisko" placeholder="Podaj nazwisko" required/>
+            <br><br>
+            <label>Hasło:</label><br><br>
+            <input type="password" maxlength="30" name="haslo" placeholder="Podaj hasło" required/>
+            <br><br>
+            
+        </p>
+    </fieldset>
+    <fieldset>
+        <p>
+            <legend>Inne dane</legend>
+            <textarea name="Uwagi" placeholder="Własne uwagi" cols="30" rows="10" required></textarea>
+        </p>
+
+        <p>
+            Wybierz swój ulubiony gatunek muzyczny: <br>
+            <input type="checkbox" name="rodzaj" value="Rock"/>Rock <br>
+            <input type="checkbox" name="rodzaj" value="Jazz"/>Jazz <br>
+            <input type="checkbox" name="rodzaj" value="Pop"/>Pop <br>
+            <input type="checkbox" name="rodzaj" value="Rap"/>Rap <br>
+        </p>
+
+        <p>
+            Jakiego urządzenia uzywasz do słuchania muzyki? <br>
+            <select name="muzyka" equired>
+                <option value="z1">iPod</option>
+                <option value="z1">Radio</option>
+                <option value="z1">Komputer</option>
+                <option value="z1">Telewizor</option>
+            </select>
+        </p>
+    </fieldset>
+
+    <p>
+        <input type="submit" name="submit" value="Wyślij dane"/>
+    </p>
+    <p>
+        <input type="reset" name="reset" value="Wyczyść formularz"/>
+    </p>
+
+
+
+</form>
     </body>
 </html>
