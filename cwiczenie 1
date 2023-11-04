@@ -53,7 +53,7 @@
                 Wybierz swój ulubiony gatunek muzyczny: <br>
                 <input type="checkbox" name="miasto" value="Kraków"/>Rock <br>
                 <input type="checkbox" name="miasto" value="Wrocław"/>Jazz <br>
-                <input type="checkbox" name="miasto" value="Pop"/>Pop <br>
+                <input type="checkbox" name="miasto" value="Gdańsk"/>Pop <br>
                 
             </p>
     </body>
