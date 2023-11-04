@@ -1,4 +1,70 @@
 body{
-    color: green;
+    background-color: gray;
+    color: white;
     
+}
+.content{
+    background-color: bisque;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: black;
+    text-align: center;
+    align-self: center;
+
+}
+.no1{
+    border-color: beige;
+    border-radius: 2px;
+    color: blueviolet;
+    padding-top: 30px;
+}
+
+.differenth1{
+    background: white;
+    color: red;
+}
+
+
+#h22{
+    color: green;
+}
+
+.pudelko{
+
+    align-self: center;
+    padding-top: 50px;
+    margin: auto;
+    width: 50%;
+    height: 150px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+
+.pudelko2{
+
+    align-self: center;
+    padding-top: 50px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 150px;
+    background-color: white;
+    color: indigo;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+
+div p {
+    color:gray;
+    font-family: Arial;
 }
