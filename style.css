@@ -66,5 +66,8 @@ h1{
 
 div p {
     color:gray;
-    font-family: Arial;
+    font-family: Helvetica;
+}
+div p.different{
+    font-family: italic;
 }
