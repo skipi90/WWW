@@ -2,143 +2,141 @@
 <html lang="pl">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="widtd=device-widtd, initial-scale=1">
         <meta name="description" content="Opis mojej strony">
-        <meta name="keywords" content="Kacper Szczepkowski">
+        <meta name="keywords" content="ogłoszenia, olsztyn">
         <meta name="autor" content="Kacper Szczepkowski">
         <meta http-equiv="refresh" content="60">
-        <title>Style wbudowane</title>
-        <link rel="stylesheet" type="text/css" href="style1.css">
-        
+        <title>Tytuł zakładki - Portal z ogłoszeniami</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
         <style>
-           /* p{
-                margin: 0;
-                height: 30px;
-                text-align: center;
-                width: 45%;
+        
+            body{
+                width:90%;
                 margin-left: auto;
                 margin-right: auto;
-                padding-top: 10px;
-            
             }
-           p.zero{
-            background-color: rgb(238,62,128);
-           }
-           p.one{
-            background-color: rgb(244,90,139);
-           }  
-           p.two{
-            background-color: rgb(243,106,152);
-           } 
-           p.three{
-            background-color: rgb(244,123,166);
-           } 
-           p.four{
-            background-color: rgb(245,170,178);
-           } 
-           p.five{
-            background-color: rgb(246,159,192);
-           } 
-           p.six{
-            background-color: rgb(245,176,204);
-           }
-           p.seven{
-            background-color: rgb(0,187,136);
-           }
-           p.eight{
-            background-color: rgb(140,202,242);
-           }
-           p.nine{
-            background-color: rgb(114,193,240);
-           }
-           p.ten{
-            background-color: rgb(84,182,237);
-           }  
-           p.eleven{
-            background-color: rgb(48,170,233);
-           }
-           p.twelve{
-            background-color: rgb(0,160,230);
-           }
-           p.thirteen{
-            background-color: rgb(0,149,226);
-           }
-           p.fourteen{
-            background-color: rgb(0,136,221);
-           }
-           */
-        .content{
-            height: 300px;
-            width: 300px;
-            background-color: blanchedalmond;
-            margin-left: auto;
-            margin-right: auto;
+            h1{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            nav {
+            background-color: gray;
+            padding: 10px;
             margin-top: 20px;
-            padding: 20px;
-          }
-        p{
-            margin-left: auto;
-            margin-right: auto;
-            height: 70%;
-            width: 70%;
-            background-color: beige;
-            text-align: center;
-        }
-        p.em{
-            height: 10em;
-            width: 10em;
-            background-color: burlywood;
-            position: relative;
         }
 
-         
-          
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 8px 16px;
+            
+            
+        }
+
+        a:hover {
+            background-color: red;
+        }
+        
+           .desc{
+                width: auto;
+                background-color: lightslategray;
+                padding: 10px;
+                margin-top: 20px;
+           }
+     
+           #reg{
+            display: flex-end;
+            background-color: red;
+           }
+           #log{
+            background-color: red;
+           }
+
+           #reg:hover{
+            background-color: white;
+            color: red;
+           }
+
+           .articles{
+            width: 100%;
+            height: 200px;
+            margin-top: 20px;
+           }
+           .content1{
+            display: flexbox;
+            width: 10%;
+            
+           }
+           .content2{
+            display: flexbox;
+            width: 10%;
+           }
+           .content3{
+            display: flexbox;
+            width: 10%;
+           }
+           .content4{
+            display: flexbox;
+            width: 10%;
+           }
+           .content5{
+            display: flexbox;
+            width: 10%;
+           }
+           .content6{
+            display: flexbox;
+            width: 10%;
+           }
+           .content7{
+            display: flexbox;
+            width: 10%;
+           }
+           .content8{
+            display: flexbox;
+            width: 10%;
+           }
+           
         </style>
     </head>
+    <body>
+        <h1>Kup/Sprzedaj/Zamień</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Strona główna</a></li>
+                <li><a href="#">Produkty</a></li>
+                <li><a href="#">Usługi</a></li>
+                <li><a href="#">O nas</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li id="reg"><a href="#">Rejestracja</a></li>
+                <li id="log"><a href="#">Logowanie</a></li>
 
-<body>
-   <!--    <h1>Skala pH</h1>
-    <p class="zero">0    BARDZO NEUTRALNE</p>
-    <p class="one">1.0</p>
-    <p class="two">2.0</p>
-    <p class="three">3.0</p>
-    <p class="four">4.0</p>
-    <p class="five">5.0</p>
-    <p class="six">6.0</p>
-    <p class="seven">7.0     NEUTRALNE</p>
-    <p class="eight">8.0</p>
-    <p class="nine">9.0</p>
-    <p class="ten">10.0</p>
-    <p class="eleven">11.0</p>
-    <p class="twelve">12.0</p>
-    <p class="thirteen">13.0</p>
-    <p class="fourteen">14.0    BARDZO KWASOWE</p>
-    -->
-<div class="content">
-<p>Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. 
-</p>
-<div>
-    <p class="example">Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst. Dowolny tekst.</p>
-</div>
-    <!--<div>
-        <p>Jakaś treść tego diva</p>
-        <p>Treść nr 1</p>
-        <p>Treśc nr 2</p>
+            </ul>
+        </nav>
+        <div class="desc">Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony Opis strony </div>
+    <div class="articles">
+        <div class="content1"><h6>Treść artykułu 1</h6><p>Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu</p> </div>
+        <div class="content2"><h6>Treść artykułu 2</h6>Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu </div>
+        <div class="content3"><h6>Treść artykułu 3</h6>Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu </div>
+        <div class="content4"><h6>Treść artykułu 4</h6>Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu </div>
+        <div class="content5"><h6>Treść artykułu 5</h6>Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu </div>
+        <div class="content6"><h6>Treść artykułu 6</h6>Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu </div>
+        <div class="content7"><h6>Treść artykułu 7</h6>Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu </div>
+        <div class="content8"><h6>Treść artykułu 8</h6>Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu Treść artykułu </div>
     </div>
-    <p class="different">Inna treść strony</p>
--->
-
-    <!--<h1 class="no1">Tytuł strony</h1>
-    <p>Dowolna treść</p>
-    <h1>Tytuł strony</h1>
-    <h2 id="h22">Tekst do pokolorowania</h2>
-    <p>Dowolna treść</p>
-    <div class="pudelko">
-        tutaj chcialbym coś sprzedawac ale jeszcze nie wiem co
-    </div>
-    <div class="pudelko2">
-        tutaj wrzucam zdjecie bolida
-    </div>
--->
-</div>
-</body>
+        
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Opis mojej strony">
+        <meta name="keywords" content="Kacper Szczepkowski">
+        <meta name="autor" content="Kacper Szczepkowski">
+        <meta http-equiv="refresh" content="60">
+        <title>Style wbudowane</title>
+        <link rel="stylesheet" type="text/css" href="style1.css">
+        
+
+        <style>
+nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            background-color: #555;
+        }
+
+        a:hover {
+            background-color: #777;
+        }
+        </style>
+<body>
+    <title>Kup/Sprzedaj/Zamień</title>
+<nav>
+    <ul>
+        <li>Strona główna</li>
+        <li>Produkty</li>
+        <li>Usługi</li>
+        <li>O nas</li>
+        <li>Kontakt</li>
+        <li id="reg">Rejestracjaj</li>
+        <li id="log">Logowanie</li>
+    </ul>
+</nav>
+
+</body>
+</html>
